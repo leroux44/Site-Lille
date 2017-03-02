@@ -1,0 +1,131 @@
+body
+{
+  margin: 10px 0 ;
+  padding: left;
+  text-align: left ;
+  font: 0.8em "Arial", helvetica, sans-serif ;
+  background-image: url(fond.jpg);
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+}
+* { margin: 0; padding: 0; }
+ 
+nav {
+    font: 13px Arial;
+    background-color: #000000;
+}
+ 
+nav a { font-weight: bold; color: #000000; text-decoration: none; padding: 0 10px; line-height: 30px; }
+nav a:hover { color: #FF220D; }
+
+div#conteneur
+{
+  width: 820px ;
+  margin: 0 auto ;
+  text-align: left ;
+  border: 2px solid #000000 ;
+  background: #fff ;
+}
+
+h1#header
+{
+  height: 258px ;
+  margin: 0 ;
+  background: url(accueil-Lille.jpg) no-repeat left top;
+  background-size: cover;
+}
+
+div#contenu
+{
+  padding: 25px 100px ;
+  background: url() no-repeat 15px 15px ;
+}
+
+div#contenu h2
+{
+  padding-left: 25px ;
+  line-height: 25px ;
+  font-size: 1.4em ;
+  color: #000000 ;
+  border-bottom: 1px solid #191970;
+}
+
+div#contenu p
+{
+  text-align: justify ;
+  text-indent: 2em ;
+  line-height: 1.7em ;
+}
+
+div#contenu a
+{
+  color: #191970 ;
+}
+
+
+img#photo
+ {
+	max-width: 35%;
+	height: auto;
+}
+
+p#footer
+{
+  margin: 0 ;
+  padding-right: 10px ;
+  line-height: 30px ;
+  text-align: right ;
+  color: #191970 ;
+}
+
+pre
+{
+  overflow: auto ;
+  background: #dea ;
+  border: 2px solid #191970 ;
+  padding: 5px 0 0 5px ;
+  font-size: 1.2em ;
+}
+
+* html pre
+{
+  width: 636px ;
+}
+
+pre span
+{
+  color: #560 ;
+}
+
+pre span.comment
+{
+  color: #b30000 ; /* rouge */
+}
+
+
+
+div#colonne
+{
+	float: left;
+	display: inline-block;
+    margin: auto;
+    justify-content: center;
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+  	
+}
+
+ul#none
+{
+    list-style-type: none;
+}
+
+table, tr, td
+{
+    text-align: center;
+    margin: auto;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
